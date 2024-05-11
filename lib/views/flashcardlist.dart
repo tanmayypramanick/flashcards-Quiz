@@ -220,7 +220,7 @@ class _FlashcardListState extends State<FlashcardList> {
             onPressed: _navigateToQuiz,
           ),
         ],
-        backgroundColor: Color.fromARGB(255, 22, 33, 43),
+        backgroundColor: Color.fromARGB(255, 253, 253, 253),
       ),
       body: LayoutBuilder(
         builder: (context, constraints) {
@@ -251,7 +251,7 @@ class _FlashcardListState extends State<FlashcardList> {
                           child: Text(
                             flashcard.question,
                             style: const TextStyle(
-                              color: Color.fromARGB(255, 0, 0, 0),
+                              color: Color.fromARGB(255, 255, 255, 255),
                             ),
                           ),
                         ),
